@@ -154,7 +154,7 @@ Rappelle des raccourcis claviers pour les signes typographiques suivants sur mac
 
 #### Nettoyer les attributs HTML ####
 
-**rechercher :** ` ?[\w:\-]+ ?= ?("[^"]+"|'[^']+'|\w+)`
+**rechercher :** `&nbsp;?[\w:\-]+ ?= ?("[^"]+"|'[^']+'|\w+)`
 
 **remplacer :** `rien`
 
