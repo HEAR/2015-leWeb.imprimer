@@ -147,6 +147,7 @@ Rappelle des raccourcis claviers pour les signes typographiques suivants sur mac
 ## Liens divers ##
 
 - XML dans indesign : http://www.indesignusergroup.com/chapters/brisbane/files/643/Brisbane_Handout.pdf
+- XML dans indesign bis : https://a248.e.akamai.net/f/1953/8974/2h/wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/indesign/pdfs/indesign_and_xml_technical_reference.pdf
 - http://www.regexr.com
 - https://packagecontrol.io/installation#st2
 
