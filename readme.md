@@ -154,11 +154,13 @@ Rappelle des raccourcis claviers pour les signes typographiques suivants sur mac
 
 #### Nettoyer les attributs HTML ####
 
-rechercher : ` ?[\w:\-]+ ?= ?("[^"]+"|'[^']+'|\w+)`
-remplacer : ``
+*rechercher :* ` ?[\w:\-]+ ?= ?("[^"]+"|'[^']+'|\w+)`
+
+*remplacer* :* ``
 
 #### Nettoyer les attributs HTML mais garder les références d'images et liens (href + src)####
 
-rechercher : `<([a-z][a-z0-9]*)(?:[^>]*(\ssrc=['\"][^'\"]*['\"])|(\shref=['\"][^'\"]*['\"]))?[^>]*?(\/?)>`
-remplacer par : `<$1$2$3>`
+*rechercher :* `<([a-z][a-z0-9]*)(?:[^>]*(\ssrc=['\"][^'\"]*['\"])|(\shref=['\"][^'\"]*['\"]))?[^>]*?(\/?)>`
+
+*remplacer par :* `<$1$2$3>`
 
