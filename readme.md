@@ -91,6 +91,13 @@ Si vous avez peur d'en oublier, ne vous inquiétez pas indesign vous fera des al
 l'adresse des images (`<img src="adresse/de/image.jpg"/>` ou `<img src="http://nomdusite.com/adresse/de/image.jpg"/>`) pointent en général vers une adresse web. Ça ne sera pas compris par indesign. Il faudra alors faire correspondre l'adresse web au chemin de votre fichier par rapport au fichier xml et au dossier des images que vous aurez récupéré avec automator.
 	- `http://nomdusite.com/adresse/de/image.jpg`
 	- `file:///dossier_images/image.jpg`
+	
+!!! Attention vous devez remplacer l'attribut `src` des images par `href` pour que ça fonctionne.
+
+Au final une balise image devra ressembler à :
+
+- `<img href="file:///dossier_images/image.jpg"/>` (dans ce cas dans in design il faudra préciser dans la palette de structure que la balise d'image par défaut est `img`
+- `<image href="file:///dossier_images/image.jpg"></images>`
 
 Pour effectuer tous ces filtrages, le mieux est d'utiliser le fonction de recherches avancées de Sublime Text.
 Voici une liste de raccourcis :
