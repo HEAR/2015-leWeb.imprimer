@@ -97,7 +97,7 @@ l'adresse des images (`<img src="adresse/de/image.jpg"/>` ou `<img src="http://n
 Au final une balise image devra ressembler à :
 
 - `<img href="file:///dossier_images/image.jpg"/>` (dans ce cas dans in design il faudra préciser dans la palette de structure que la balise d'image par défaut est `img`
-- `<image href="file:///dossier_images/image.jpg"></images>`
+- `<image href="file:///dossier_images/image.jpg"></image>`
 
 Pour effectuer tous ces filtrages, le mieux est d'utiliser le fonction de recherches avancées de Sublime Text.
 Voici une liste de raccourcis :
